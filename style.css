@@ -66,7 +66,7 @@ nav {
   padding-top: 5%;
 }
 
-.nav-item:hover {
+.navbar .nav-item:hover {
   background-color: #00ffa1;
   color: black;
   clip-path: polygon(25% 0%, 100% 0%, 84% 100%, 6% 100%);
@@ -136,6 +136,10 @@ footer {
 
 #footNav {
   padding: 7%;
+}
+
+#footNav a:hover {
+  color:white;
 }
 
 #copyright {
